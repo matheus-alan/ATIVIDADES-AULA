@@ -1,0 +1,10 @@
+/* Estilos opcionais para estilizar a lista de tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  

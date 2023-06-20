@@ -1,0 +1,19 @@
+h1{
+    color: black;
+    background-color: yellow;
+    font-size: 30px;
+}
+p{
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    
+}
+
+img{
+    margin-left: 40%;
+    border: 2px solid red; 
+    width: 800px;
+    height: 500px;
+
+}

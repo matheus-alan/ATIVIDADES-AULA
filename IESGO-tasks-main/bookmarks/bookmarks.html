@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Favoritos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-5 text-center">Meus Links Favoritos</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" id="link-title" class="form-control" placeholder="Digite o título">
+              <input type="url" id="link-url" class="form-control" placeholder="Digite a URL do link">
+              <div class="input-group-append">
+                <button id="add-button" class="btn btn-primary" type="button">Salvar</button>
+              </div>
+            </div>
+          </form>
+          <div class="list-group" id="link-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
